@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pract es6</title>
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/123926b258.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-md py-3">
+                <a class="navbar-brand" href="#">
+                <img class="mr-2" src="https://oranjepeel2020.github.io/PetFinder/logo.png" />    
+                PetFinder</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarMenu">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Download</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Testimonial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Pets</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1 class="title mt-3">Love pets? Find the animal suited to you</h1>
+                    <button class="btn btn-dark btn-lg download-button">
+                        <i class="fab fa-apple"></i>    
+                    Download</button>
+                    <button class="btn btn-outline-light btn-lg download-button">
+                        <i class="fab fa-google-play"></i>
+                        Download</button>
+                </div>
+                <div class="col-lg-6">
+                    <img class="title-image" src="https://oranjepeel2020.github.io/PetFinder/die-wolf.png" alt="dog">
+                </div>
+            </div>
+        </div>
+    </section>   
+    <section id="pets" class="pets">
+        <div class="pets-text my-4">
+            <h3>See some of our most recent pets</h3>
+            <p>your pet is waiting for you</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="carouselPets" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselPets" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselPets" data-slide-to="1"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row p-2">
+                                    <div class="col-md-4 bg-main">
+                                        <a href="#">
+                                            <img class="pet-img" src="https://oranjepeel2020.github.io/PetFinder/delta.png" />
+                                            <h3>AL-Asad: The lion cub of Kosovo</h3>
+                                            <p>AL-Asad: The lion cub is one of petfinder's most adored animals up for adOtion in Kosovo</p>
+                                            <button class="btn btn-primary">View more</button>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 bg-main">
+                                        <a href="#">
+                                            <img class="pet-img" src="https://oranjepeel2020.github.io/PetFinder/al-asad.png" alt="">
+                                            <h3>AL-Asad: The lion cub of Kosovo</h3>
+                                            <p>AL-Asad: The lion cub is one of petfinder's most adored animals up for adOtion in Kosovo</p>
+                                            <button class="btn btn-primary">View more</button>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 bg-main">
+                                        <a href="#">
+                                            <img class="pet-img" src="https://oranjepeel2020.github.io/PetFinder/delta.png" />
+                                            <h3>AL-Asad: The lion cub of Kosovo</h3>
+                                            <p>AL-Asad: The lion cub is one of petfinder's most adored animals up for adOtion in Kosovo</p>
+                                            <button class="btn btn-primary">View more</button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row p-2">
+                                    <div class="col-md-4 bg-main">
+                                        <a href="#">
+                                            <img class="pet-img" src="https://oranjepeel2020.github.io/PetFinder/delta.png" />
+                                            <h3>AL-Asad: The lion cub of Kosovo</h3>
+                                            <p>AL-Asad: The lion cub is one of petfinder's most adored animals up for adOtion in Kosovo</p>
+                                            <button class="btn btn-primary">View more</button>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 bg-main">
+                                        <a href="#">
+                                            <img class="pet-img" src="https://oranjepeel2020.github.io/PetFinder/al-asad.png" alt="">
+                                            <h3>AL-Asad: The lion cub of Kosovo</h3>
+                                            <p>AL-Asad: The lion cub is one of petfinder's most adored animals up for adOtion in Kosovo</p>
+                                            <button class="btn btn-primary">View more</button>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 bg-main">
+                                        <a href="#">
+                                            <img class="pet-img" src="https://oranjepeel2020.github.io/PetFinder/delta.png" />
+                                            <h3>AL-Asad: The lion cub of Kosovo</h3>
+                                            <p>AL-Asad: The lion cub is one of petfinder's most adored animals up for adOtion in Kosovo</p>
+                                            <button class="btn btn-primary">View more</button>
+                                        </a>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="d-flex justify-content-center py-5">
+            <a href="#" class="px-4">
+                <i class="fab fa-facebook fa-2x"></i>
+            </a>
+            <a href="#" class="px-4">
+                <i class="fab fa-instagram fa-2x"></i>
+            </a>
+            <a href="#" class="px-4">
+                <i class="fab fa-twitter fa-2x"></i>
+            </a>
+            <a href="#" class="px-4">
+                <i class="fab fa-youtube fa-2x"></i>
+            </a>
+        </div>
+        <p class="text-center mt-n4">© Copyright 2020 OranjePeelStudios</p>
+    </footer> 
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="vendor/bootstrap/bootstrap.js"></script>
+</body>
+</html>
