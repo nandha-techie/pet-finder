@@ -1,7 +1,7 @@
 # Pet-Finder
 
 ## Demo Link
-<a href="https://nandha-techie.github.io/sass-project/">LIVE</a>
+<a href="https://nandha-techie.github.io/pet-finder/">LIVE</a>
 
 ## About Bootstrap Project
 
